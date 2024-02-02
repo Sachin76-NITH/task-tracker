@@ -1,0 +1,388 @@
+.sachin{
+  display: flex;
+  flex: 1;
+  height: 100vh;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  
+  height: 100%;
+  
+}
+
+.ps{
+
+  display: flex;
+  
+  /* align-items: center; */
+  /* justify-content: center;  */
+  height: 100px; 
+  align-items: center;
+  justify-content: center;
+  
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  
+  }
+  .ss{
+    width: 100%;
+    height: 100vh;
+     display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+  
+  }
+
+  .text{
+    display: flex;
+    margin-left: 8px;
+   
+    font-family:robot;
+  
+  }
+
+  /* Tracking.css */
+
+  .container11 {
+    flex: 0.8;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+  }
+  
+  h1 {
+    font-family: roboto;
+    text-align: center;
+    color: #333;
+    font-size: x-large;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  
+  button.primary {
+   
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  button.primary:hover {
+    background-color: #2980b9;
+  }
+  
+  button.danger {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  button.danger:hover {
+    background-color: #c0392b;
+  }
+  
+  button.success {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  button.success:hover {
+    background-color: #27ae60;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  tr td:last-child {
+    text-align: center;
+  }
+
+  /* styles.css */
+
+.btn-edit,
+.btn-mark,
+.btn-delete,
+.btn-update,
+.btn-cancel {
+  font-size: 14px;
+  padding: 8px 12px;
+  margin: 4px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-edit {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.btn-mark {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.btn-update,
+.btn-cancel {
+  background-color: #34495e;
+  color: #fff;
+}
+
+/* Add more styles as needed */
+/* styles.css */
+
+/* ... (previous styles) */
+
+.btn-edit.completed,
+.btn-mark.completed {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.btn-edit.incomplete,
+.btn-mark.incomplete {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* ... (remaining styles) */
+
+.login-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.lc{
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color:black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color:white;
+}
+
+/* Login.css */
+.login-container {
+  
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.nlp{
+  flex: 0.8;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10PX;
+  margin-bottom: 10PX;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+ .nlp-image{
+  display: flex;
+  height: 85vh;
+  
+ }
+.nlp-image2{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+}
+
+.nlph{
+  background-color: pink;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.login-container{
+  display: flex;
+  background-image: url('https://th.bing.com/th/id/OIP.INKq-0dK4us9tsTWcqQ3bQHaEK?rs=1&pid=ImgDetMain');
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+/* Add this to your CSS file */
+
+/* ... (existing styles) ... */
+/* Add this to your CSS file */
+
+/* ... (existing styles) ... */
+
+.logout-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.logout-button {
+  padding: 10px;
+  background-color: #f44336; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f; /* Darker red background on hover */
+}
+
+.confirmation-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.confirm-button,
+.cancel-button {
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.confirm-button {
+  background-color: #4caf50; /* Green background */
+  color: white;
+}
+
+.cancel-button {
+  background-color: #f44336; /* Red background */
+  color: white;
+}
+
+.confirm-button:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+
+.cancel-button:hover {
+  background-color: #d32f2f; /* Darker red background on hover */
+}
+
